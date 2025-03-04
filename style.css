@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://i1.faceprep.in/ProGrad/iron-man-bg.png");
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+
+div {
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin: 10%;
+    padding: 2%;
+}
+
+div img {
+    width: 60%;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+p,
+h1,
+h2,
+h3 {
+    padding: 2%;
+}
+
+p {
+    padding: 0px 10%;
+}
+
+img:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px crimson;
+    transform: scale(1.05);
+}
+
+a {
+    color: tomato;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+}
+
+
+h3:hover {
+    transform: scale(2.00);
+}
